@@ -7,27 +7,30 @@
     <title>igt</title>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="../dist/assets/css/app.css">
+
 </head>
 <body class="relative min-h-screen">
     <header>
         <div class="flex items-center justify-center text-white bg-black h-14">
-            <h1 class="text-center text-sm px-6">WARNING: This Product Contains Nicotine. Nicotine is an addictive chemical.</h1>
+            <h1 class="px-6 text-sm text-center">WARNING: This Product Contains Nicotine. Nicotine is an addictive chemical.</h1>
         </div>
         <nav class="">
-            <div class="flex items-center justify-between w-full px-4 py-2 shadow border-b">
+            <div class="flex items-center justify-between w-full px-4 py-2 border-b shadow">
                 <div class="hidden md:block">
                     <button id="menuToggle">
-                        <i class="las la-bars text-3xl font-black"></i>
+                        <i class="text-3xl font-black las la-bars"></i>
                     </button>
                 </div>
                 <div>
-                    <img src="https://logos-world.net/wp-content/uploads/2021/02/Sky-Logo.png" class="w-20 h-10" alt="">
+                    <img src="https://igetvapesaustralia.com/imgs/iget.svg" class="w-20 h-10" alt="">
                 </div>
                 <div class="block md:hidden">
-                    <input type="search" class="outline-none border rounded-full h-9 px-2 py-2" placeholder="Search"/>
+                    <input type="search" class="px-4 py-2 text-[12px] border rounded-full outline-none h-9" placeholder="Search"/>
                 </div>
                 <div class="hidden md:block">
-                    <i class="las la-shopping-bag text-3xl font-black"></i>
+                    <button id="cartMenu">
+                        <i class="text-3xl font-black las la-shopping-bag"></i>
+                    </button>
                 </div>
             </div>
         </nav>
@@ -38,28 +41,41 @@
                 <img src="https://igetvapesaustralia.com/imgs/igetlegend/iget-legend_pumywc_c_scale,w_2093.webp" alt="">
             </div>
         </section>
+
+          <div class="owl-carousel owl-theme">
+            <div class="item"> <img src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"></div>
+            <div class="item"> <img src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"></div>
+            <div class="item"> <img src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"></div>
+            <div class="item"> <img src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"></div>
+            <div class="item"> <img src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"></div>
+            <div class="item"> <img src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"></div>
+            <div class="item"> <img src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"></div>
+            <div class="item"> <img src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"></div>
+            <div class="item"> <img src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"></div>
+        </div>
         <section>
             <div class="flex items-center justify-center my-10">
-                <h1 class="text-center text-2xl uppercase underline">IGET Vape Australia</h1>
+                <h1 class="text-2xl text-center underline uppercase">IGET Vape Australia</h1>
             </div>
+     
             <div class="grid grid-cols-12 gap-4 px-4 mt-10">
                 <div class="col-span-6">
-                    <div class="border rounded p-4 shadow-sm">
+                    <div class="p-4 border rounded shadow-sm">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </div>
                 </div>
                 <div class="col-span-6">
-                    <div class="border rounded p-4 shadow-sm">
+                    <div class="p-4 border rounded shadow-sm">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </div>
                 </div>
                 <div class="col-span-6">
-                    <div class="border rounded p-4 shadow-sm">
+                    <div class="p-4 border rounded shadow-sm">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </div>
                 </div>
                 <div class="col-span-6">
-                    <div class="border rounded p-4 shadow-sm">
+                    <div class="p-4 border rounded shadow-sm">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </div>
                 </div>
@@ -67,44 +83,75 @@
             </div>
         </section>
     </main>
-    <div class="fixed bg-white bottom-0 left-0 w-full border-t shadow-sm md:hidden">
+    <div class="fixed bottom-0 left-0 z-50 w-full bg-white border-t shadow-sm md:hidden">
         <nav class="">
-            <div class="flex items-center justify-between w-full px-4 py-2 shadow border-b">
-                <div class="flex flex-col justify-center items-center hover:text-pink-600">
-                    <i class="las la-home text-xl leading-none "></i>
-                    <p class="text-sm ">Home</p>
+            <div class="flex items-center justify-between w-full px-4 py-2 border-b shadow">
+                <div class="flex flex-col items-center justify-center hover:text-pink-600">
+                   <a href="">
+                        <i class="text-xl leading-none las la-home "></i>
+                        <p class="text-sm ">Home</p>
+                    </a>
                 </div>
-                <div class="flex flex-col justify-center items-center hover:text-pink-600">
-                    <i class="las la-th-large text-xl leading-none "></i>
-                    <p class="text-sm ">Category</p>
+                <div  class="flex flex-col items-center justify-center hover:text-pink-600">
+                    <button id="menuToggleNew">
+                        <i class="text-xl leading-none las la-th-large "></i>
+                        <p class="text-sm ">Category</p>
+                    </button>
                 </div>
-                <div class="flex flex-col justify-center items-center hover:text-pink-600">
-                    <i class="las la-shopping-cart text-xl leading-none "></i>
+                <div class="flex flex-col items-center justify-center hover:text-pink-600">
+                    <button id="cartMenu2">
+                    <i class="text-xl leading-none las la-shopping-cart "></i>
                     <p class="text-sm ">Cart</p>
+                    </button>
                 </div>
-                <div class="flex flex-col justify-center items-center hover:text-pink-600">
-                    <i class="las la-user text-xl leading-none "></i>
+                <div class="flex flex-col items-center justify-center hover:text-pink-600">
+                    <i class="text-xl leading-none las la-user "></i>
                     <p class="text-sm ">Profile</p>
                 </div>
             </div>
         </nav>
     </div>
    
-    <div class="absolute sidenav bg-white shadow border-t p-4 w-64 h-full top-28 left-0">
-
+    <div class="bg-white border-t border-r w-80 -left-80 sidebar md:backdrop-blur-md md:bg-white/30">
         <div>
-
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti, vitae illum voluptate maiores modi animi placeat ad maxime? Veniam vel maxime iste et corporis error mollitia quidem vitae iusto?
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
 
+    <div class="bg-white border-t border-l w-96 cartMenuBody ">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti, vitae illum voluptate maiores modi animi placeat ad maxime? Veniam vel maxime iste et corporis error mollitia quidem vitae iusto?
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+
+    
+
+  </script>
     <script>
         const menuToggle = document.getElementById('menuToggle');
-        const menu = document.querySelector('.sidenav');
+        const menu = document.querySelector('.sidebar');
         menuToggle.addEventListener('click', () => {
-            menu.classList.toggle('block');
+            menu.classList.toggle('active');
+        });
+        const menuToggle2 = document.getElementById('menuToggleNew');
+        const menu2 = document.querySelector('.sidebar');
+        menuToggle2.addEventListener('click', () => {
+            menu2.classList.toggle('active');
+        });
+        const cartMenu = document.getElementById('cartMenu');
+        const cartMenuBody = document.querySelector('.cartMenuBody');
+        cartMenu.addEventListener('click', () => {
+            cartMenuBody.classList.toggle('active');
+        });
+        const cartMenu2 = document.getElementById('cartMenu2');
+        const cartMenuBody2 = document.querySelector('.cartMenuBody');
+        cartMenu2.addEventListener('click', () => {
+            cartMenuBody2.classList.toggle('active');
         });
     </script>
+
 </body>
 </html>

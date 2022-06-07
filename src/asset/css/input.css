@@ -2,3 +2,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sidebar{
+    padding: 16px;
+    position: absolute;
+    top: 112px;
+    transition: 0.5s;
+    height: 100%;
+    border-top: 1px solid #f1f2f3;
+}
+.sidebar.active{
+    transition: 0.5s;
+    left: 0px;
+}
+.cartMenuBody{
+    padding: 16px;
+    position: absolute;
+    top: 112px;
+    transition: 0.5s;
+    height: 100%;
+    border-top: 1px solid #f1f2f3;
+    display:none;
+    right: 0;
+}
+.cartMenuBody.active{
+    transition: 0.5s;
+    right: 0;
+    display: block;
+}
