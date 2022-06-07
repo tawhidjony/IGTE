@@ -16,7 +16,9 @@
         <nav class="">
             <div class="flex items-center justify-between w-full px-4 py-2 shadow border-b">
                 <div class="hidden md:block">
-                    <i class="las la-bars text-3xl font-black"></i>
+                    <button id="menuToggle">
+                        <i class="las la-bars text-3xl font-black"></i>
+                    </button>
                 </div>
                 <div>
                     <img src="https://logos-world.net/wp-content/uploads/2021/02/Sky-Logo.png" class="w-20 h-10" alt="">
@@ -65,7 +67,6 @@
             </div>
         </section>
     </main>
- 
     <div class="fixed bg-white bottom-0 left-0 w-full border-t shadow-sm md:hidden">
         <nav class="">
             <div class="flex items-center justify-between w-full px-4 py-2 shadow border-b">
@@ -88,5 +89,22 @@
             </div>
         </nav>
     </div>
+   
+    <div class="absolute sidenav bg-white shadow border-t p-4 w-64 h-full top-28 left-0">
+
+        <div>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti, vitae illum voluptate maiores modi animi placeat ad maxime? Veniam vel maxime iste et corporis error mollitia quidem vitae iusto?
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const menu = document.querySelector('.sidenav');
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('block');
+        });
+    </script>
 </body>
 </html>
