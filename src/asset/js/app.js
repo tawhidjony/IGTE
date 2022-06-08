@@ -24,11 +24,30 @@ cartMenu2.addEventListener("click", () => {
 var swiper = new Swiper(".mySwiper", {
     slidesPerView:6,
     spaceBetween: 30,
-    slidesPerGroup: 3,
+    slidesPerGroup: 1,
+    initialSlide: 1,
     loop: true,
     loopFillGroupWithBlank: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+        spaceBetween:15,
+      },
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 16,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 16,
+      },
+      1024: {
+        slidesPerView: 5,
+        spaceBetween: 16,
+      },
     },
   });
