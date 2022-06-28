@@ -21,7 +21,7 @@
         <nav class="">
             <div class="flex items-center justify-between w-full px-4 py-2 border-b shadow">
                 <div class="hidden md:block">
-                    <button id="menuToggle">
+                    <button class="open-category-menu">
                         <i class="text-3xl font-black las la-bars"></i>
                     </button>
                 </div>
@@ -33,7 +33,7 @@
                         placeholder="Search" />
                 </div>
                 <div class="hidden md:block">
-                    <button id="cartMenu">
+                    <button class="shopping-cart-menu">
                         <i class="text-3xl font-black las la-shopping-bag"></i>
                     </button>
                 </div>
@@ -46,6 +46,7 @@
                 <img src="https://igetvapesaustralia.com/imgs/igetlegend/iget-legend_pumywc_c_scale,w_2093.webp" alt="">
             </div>
         </section>
+        <!-- slider category start -->
         <section class="my-10 mx-4">
             <div class="flex justify-center items-center">
                 <h2 class="text-center text-3xl relative my-8 font-bold pb-2 border-b-4 w-fit ">IGET Vape Australia</h2>
@@ -55,20 +56,23 @@
 
                     <div
                         class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
-                        <div class="absolute -top-6 -left-14 h-20 w-36 bg-red-600 text-white -rotate-[45deg]">
-                            <span class="absolute bottom-2 left-2/4 -translate-x-2/4 transform">New!</span>
-                        </div>
-                        <div class="rounded bg-gray-200 p-2 text-center">
-                            <h2 class="text-base md:text-xl">IGET Legend</h2>
-                            <p class="text-sm">4000+ Puffs</p>
-                        </div>
-                        <div class="md:h-[280px] md:w-[280px]">
-                            <img class="h-full w-full rounded"
-                                src="https://igetvapesaustralia.com/imgs/igetlegend/iget-bar-product-box.webp" alt="" />
-                        </div>
-                        <div class="text-center">
-                            <button class="rounded bg-black px-3 py-2 text-sm text-white">Shop Now</button>
-                        </div>
+                        <a href="#">
+                            <div class="absolute -top-6 -left-14 h-20 w-36 bg-red-600 text-white -rotate-[45deg]">
+                                <span class="absolute bottom-2 left-2/4 -translate-x-2/4 transform">New!</span>
+                            </div>
+                            <div class="rounded bg-gray-200 p-2 text-center">
+                                <h2 class="text-base md:text-xl">IGET Legend</h2>
+                                <p class="text-sm">4000+ Puffs</p>
+                            </div>
+                            <div class="md:h-[280px] md:w-[280px]">
+                                <img class="h-full w-full rounded"
+                                    src="https://igetvapesaustralia.com/imgs/igetlegend/iget-bar-product-box.webp"
+                                    alt="" />
+                            </div>
+                            <div class="text-center">
+                                <button class="rounded bg-black px-3 py-2 text-sm text-white">Shop Now</button>
+                            </div>
+                        </a>
                     </div>
                     <div
                         class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
@@ -186,7 +190,7 @@
                 <div class="swiper-button-prev "></div>
             </div>
         </section>
-
+        <!-- slider category end -->
         <section class="my-14">
             <div class="flex flex-row">
                 <div class="basis-1/4">
@@ -356,15 +360,16 @@
                 </div>
             </div>
         </section>
-
+        <!-- Product card start -->
         <section>
             <div class="py-14">
                 <h2 class="text-xl md:text-[40px] font-medium text-center">IGET Vape Flavours</h2>
             </div>
             <div class="px-2 md:px-8">
                 <div class="grid grid-cols-12 gap-8">
-                    <div class="col-span-12 md:col-span-4 hover:bg-pink-600 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 hover:text-white">
+                    <div
+                        class="col-span-12 md:col-span-4 hover:bg-gray-100 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
+                        <div class="flex border rounded md:h-[250px] p-4 ">
                             <div class="basis-[30%]">
                                 <img class="w-full h-full transition ease-in-out delay-150 hover:scale-x-150  scale-x-125"
                                     src="https://igetvapesaustralia.com/imgs/igetshion/igetshionflavour.webp" alt="">
@@ -390,8 +395,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 md:col-span-4 hover:bg-pink-600 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 hover:text-white">
+                    <div
+                        class="col-span-12 md:col-span-4 hover:bg-gray-100 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
+                        <div class="flex border rounded md:h-[250px] p-4 ">
                             <div class="basis-[30%]">
                                 <img class="w-full h-full transition ease-in-out delay-150 hover:scale-x-150 scale-x-125"
                                     src="https://igetvapesaustralia.com/imgs/igetplus/igetplusflavour_kzhyxp_c_scale,w_600.webp"
@@ -414,8 +420,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 md:col-span-4 hover:bg-pink-600 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 hover:text-white">
+                    <div
+                        class="col-span-12 md:col-span-4 hover:bg-gray-100 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
+                        <div class="flex border rounded md:h-[250px] p-4 ">
                             <div class="basis-[30%]">
                                 <img class="w-full h-full transition ease-in-out delay-150 hover:scale-x-150  scale-x-125"
                                     src="https://igetvapesaustralia.com/imgs/igetxxl/igetxxlflavour.webp" alt="">
@@ -438,8 +445,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 md:col-span-4 hover:bg-pink-600 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 hover:text-white">
+                    <div
+                        class="col-span-12 md:col-span-4 hover:bg-gray-100 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
+                        <div class="flex border rounded md:h-[250px] p-4 ">
                             <div class="basis-[30%]">
                                 <img class="w-full h-full transition ease-in-out delay-150 hover:scale-x-150  scale-x-125"
                                     src="https://igetvapesaustralia.com/imgs/igetmax/igetmaxflavour_sko5k7_c_scale,w_600.webp"
@@ -463,8 +471,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 md:col-span-4 hover:bg-pink-600 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 hover:text-white">
+                    <div
+                        class="col-span-12 md:col-span-4 hover:bg-gray-100 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
+                        <div class="flex border rounded md:h-[250px] p-4 ">
                             <div class="basis-[30%]">
                                 <img class="w-full h-full transition ease-in-out delay-150 hover:scale-x-150  scale-x-125"
                                     src="https://igetvapesaustralia.com/imgs/igetking/igetkingflavour_ygfhux_c_scale,w_600.webp"
@@ -488,8 +497,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 md:col-span-4 hover:bg-pink-600 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 hover:text-white">
+                    <div
+                        class="col-span-12 md:col-span-4 hover:bg-gray-100 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1">
+                        <div class="flex border rounded md:h-[250px] p-4 ">
                             <div class="basis-[30%]">
                                 <img class="w-full h-full transition ease-in-out delay-150 hover:scale-x-150  scale-x-125"
                                     src="https://igetvapesaustralia.com/imgs/igetmega/igetflavour_szknma_c_scale,w_663.webp"
@@ -514,8 +524,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 md:col-span-4  hover:bg-pink-600 hover:rounded transition ease-in-out delay-150 hover:translate-x-1">
-                        <div class="flex border rounded md:h-[250px] hover:text-white p-4">
+                    <div
+                        class="col-span-12 md:col-span-4  hover:bg-gray-100 hover:rounded transition ease-in-out delay-150 hover:translate-x-1">
+                        <div class="flex border rounded md:h-[250px]  p-4">
                             <div class="basis-[30%]">
                                 <img class="w-full h-full transition ease-in-out delay-150 hover:scale-x-150  scale-x-125"
                                     src="https://igetvapesaustralia.com/imgs/igetbar/igetflavour_ukzrwc_c_scale,w_663.webp"
@@ -538,8 +549,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 md:col-span-4 hover:bg-pink-600 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1 ">
-                        <div class="flex border rounded md:h-[250px] p-4 hover:text-white">
+                    <div
+                        class="col-span-12 md:col-span-4 hover:bg-gray-100 hover:rounded transition ease-in-out delay-150 hover:-translate-x-1 ">
+                        <div class="flex border rounded md:h-[250px] p-4 ">
                             <div class="basis-[30%]">
                                 <img class="w-full h-full transition ease-in-out delay-150 hover:scale-x-150  scale-x-125"
                                     src="https://igetvapesaustralia.com/imgs/igetlegend/igetlegendflavour_mx4kfy_c_scale,w_600.webp"
@@ -566,14 +578,125 @@
                 </div>
             </div>
         </section>
+        <!-- Product card end -->
+        <section class="mt-14">
+            <div class="flex flex-row bg-black min-h-[200px]">
+                <div class="basis-2/5 hidden md:block">
+                    <img src="https://igetvapesaustralia.com/imgs/igetmega/bannerleft_e4mbjs_c_scale,w_1556.webp"
+                        alt="">
+                </div>
+                <div class="basis-2/5 md:basis-1/5 flex justify-center items-center">
+                    <div class="md:w-full text-center">
+                        <h2 class="text-white mb-3 md:font-semibold md:text-3xl">Buy IGET Vapes in Bulk.</h2>
+                        <p class="text-white hidden md:block md:font-light md:text-md md:mb-3">Buy and save on your
+                            favourite iget flavours, each box coming with 10 devices at a bulk/wholesale price.
+                        </p>
+                        <a class=" bg-white rounded px-2 py-1 text-[12px]  text-black md:text-base" href="#">Shop
+                            All</a>
+                    </div>
+                </div>
+                <div class="basis-3/5 md:basis-2/5">
+                    <img src="https://igetvapesaustralia.com/imgs/igetmega/bannerright_zuwvwk_c_scale,w_1556.webp"
+                        class="w-full h-full" alt="">
+                </div>
+            </div>
 
-
+        </section>
     </main>
+    <footer>
+        <div class="bg-blue-500">
+            <div class="container grid gap-6 grid-cols-12 py-8">
+                <div class="col-span-12 md:col-span-6">
+                    <h2 class="my-4 text-lg font-bold text-white">QUICK LINKS</h2>
+                    <div class="grid grid-cols-2 space-y-1 text-base text-white">
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
+                            Janna</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
+                            Shion</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
+                            Plus</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
+                            Max</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
+                            XXL</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
+                            King</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
+                            Mega</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
+                            Bar</a>
+                        <a href="#"
+                            class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Bulk/wholesale</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">All
+                            Products</a>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-3">
+                    <h2 class="my-4 text-lg font-bold text-white">INFORMATION</h2>
+                    <div class="grid grid-cols-1 space-y-1 text-base text-white">
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Refund
+                            Policy</a>
+                        <a href="#"
+                            class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Shipping
+                            Policy</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Privacy
+                            Policy</a>
+                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Terms
+                            and
+                            Conditions</a>
+                        <a href="#"
+                            class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Sitemap</a>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-3">
+                    <h2 class="my-4 text-lg font-bold text-white"> CONTACT INFO </h2>
+                    <h5 class="text-white underline mb-2"> Contact Us</h5>
+                    <p class="text-sm text-white"> Email: <a
+                            href="mailto:support@igetvapesaustralia.com">support@igetvapesaustralia.com</a></p>
+                    <div class="flex gap-6 mt-8">
+                        <a href="#"
+                            class="bg-white w-10 h-10 flex justify-center items-center text-2xl rounded-xl transition ease-in-out delay-150 hover:-translate-y-2 border-b-2 border-slate-600 shadow-md shadow-white"><i
+                                class="lab la-facebook-f"></i></a>
+                        <a href="#"
+                            class="bg-white w-10 h-10 flex justify-center items-center text-2xl rounded-xl transition ease-in-out delay-150 hover:-translate-y-2 border-b-2 border-slate-600 shadow-md shadow-white"><i
+                                class="lab la-instagram"></i></a>
+                        <a href="#"
+                            class="bg-white w-10 h-10 flex justify-center items-center text-2xl rounded-xl transition ease-in-out delay-150 hover:-translate-y-2 border-b-2 border-slate-600 shadow-md shadow-white"><i
+                                class="lab la-twitter"></i></a>
+                        <a href="#"
+                            class="bg-white w-10 h-10 flex justify-center items-center text-2xl rounded-xl transition ease-in-out delay-150 hover:-translate-y-2 border-b-2 border-slate-600 shadow-md shadow-white"><i
+                                class="lab la-linkedin"></i></a>
+                    </div>
+                    <!-- <div class="w-2/3">
+                         <img src="https://igetvapesaustralia.com/imgs/igetwhite.svg" class="" alt="">
+                     </div> -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bg-blue-600">
+            <div class="container py-8 text-center">
+                <h3 class="text-white">NEWSLETTER</h3>
+                <p class="text-white">Subscribe to receive access to exclusive deals, and much more.</p>
+                <div class="mt-4">
+                    <input type="text" placeholder="Enter your email address"
+                        class="border py-1 px-3 rounded outline-none text-base">
+                    <button class="capitalize bg-white shadow py-1 px-3 rounded outline-none text-base">submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-blue-700">
+            <p class="p-6 text-base text-white text-center">© 2022 igetvapesaustralia.com All Rights Reserved </p>
+        </div>
+    </footer>
+
+    <!-- Mobile menu start -->
     <div class="fixed bottom-0 left-0 z-50 w-full bg-white border-t shadow-sm md:hidden">
         <nav class="">
             <div class="flex items-center justify-between w-full px-4 py-2 border-b shadow">
-                <div class="flex flex-col items-center justify-center hover:text-pink-600">
-                    <a href="">
+                <div class=" hover:text-pink-600">
+                    <a href="" class="flex flex-col items-center justify-center">
                         <i class="text-xl leading-none las la-home "></i>
                         <p class="text-sm ">Home</p>
                     </a>
@@ -597,20 +720,27 @@
             </div>
         </nav>
     </div>
+    <!-- Mobile menu end -->
+    <!-- class="absolute top-0 bg-white z-40 border-t border-r w-80 h-full  md:backdrop-blur-md md:bg-white/30" -->
 
-    <div class="bg-white z-40 border-t border-r w-80 -left-80 sidebar md:backdrop-blur-md md:bg-white/30">
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti, vitae illum voluptate maiores
-            modi animi placeat ad maxime? Veniam vel maxime iste et corporis error mollitia quidem vitae iusto?
+    <!-- category menu list start -->
+    <div id="modalWrapper" class="fixed top-0 bg-[#00000091] z-40 opacity-0 pointer-events-none border-r w-full h-full transition ease-in-out delay-500 ">
+        <div class="modal__container w-80 h-full bg-white relative transition ease-in-out delay-500 ">
+            <div>category </div>
+            <button class="close-button-category">close</button>
         </div>
     </div>
+    <!-- category menu list end -->
 
-    <div class="bg-white z-40 border-t border-l w-96 cartMenuBody ">
-        <div>
+    <!-- shoping cart menu list start -->
+    <div id="shopingCartWrapper" class="fixed top-0 right-0 bg-[#00000091] z-40 opacity-0 pointer-events-none border-r w-full h-full transition ease-in-out delay-300">
+        <div class="shop_modal__wrapper w-96 h-full bg-white absolute top-0 right-0 transition ease-in-out delay-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti, vitae illum voluptate maiores
             modi animi placeat ad maxime? Veniam vel maxime iste et corporis error mollitia quidem vitae iusto?
+            <button class="close-shop-button">close</button>
         </div>
     </div>
+    <!-- shoping cart menu list end -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./asset/js/app.js"></script>
 </body>

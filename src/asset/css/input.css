@@ -3,6 +3,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Modal start */
+#modalWrapper.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal__container{
+    transform: translateX(-100%);
+}
+#modalWrapper.active .modal__container{
+    transform: translateX(0%);
+}
+/* === */
+#shopingCartWrapper.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+.shop_modal__wrapper{
+    transform: translateX(102%);
+}
+#shopingCartWrapper.active .shop_modal__wrapper{
+    transform: translateX(0%);
+}
+/* Modal end */
+
+
 .sidebar{
     padding: 16px;
     position: absolute;
@@ -55,4 +80,12 @@
 /* Style the tab content */
 .tabcontent {
     display: none;
+  }
+
+  .mySwiperProduct .swiper-wrapper .swiper-slide{
+    width: 63px !important;
+    height: 63px !important;
+  }
+  .swiper-slide-thumb-active{
+    border: 1px solid green;
   }
