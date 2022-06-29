@@ -1,755 +1,1199 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iget</title>
-    <link rel="stylesheet"
-        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-    <link rel="stylesheet" href="../dist/assets/css/app.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../dist/assets/css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
 
-<body class="relative min-h-screen">
+  <body class="relative min-h-screen">
     <header>
-        <div class="flex items-center justify-center text-white bg-black h-14">
-            <h1 class="px-6 text-sm text-center">WARNING: This Product Contains Nicotine. Nicotine is an addictive
-                chemical.</h1>
+      <div class="flex items-center justify-center text-white bg-black h-14">
+        <h1 class="px-6 text-sm text-center">
+          WARNING: This Product Contains Nicotine. Nicotine is an addictive
+          chemical.
+        </h1>
+      </div>
+      <nav class="">
+        <div
+          class="flex items-center justify-between w-full px-4 py-2 border-b shadow"
+        >
+          <div class="hidden md:block">
+            <button class="open-category-menu">
+              <i class="text-3xl font-black las la-bars"></i>
+            </button>
+          </div>
+          <div>
+            <img
+              src="https://igetvapesaustralia.com/imgs/iget.svg"
+              class="w-20 h-10"
+              alt=""
+            />
+          </div>
+          <div class="block md:hidden">
+            <input
+              type="search"
+              class="px-4 py-2 text-[12px] border rounded-full outline-none h-9"
+              placeholder="Search"
+            />
+          </div>
+          <div class="hidden md:block">
+            <button class="shopping-cart-menu">
+              <i class="text-3xl font-black las la-shopping-bag"></i>
+            </button>
+          </div>
         </div>
-        <nav class="">
-            <div class="flex items-center justify-between w-full px-4 py-2 border-b shadow">
-                <div class="hidden md:block">
-                    <button class="open-category-menu">
-                        <i class="text-3xl font-black las la-bars"></i>
-                    </button>
-                </div>
-                <div>
-                    <img src="https://igetvapesaustralia.com/imgs/iget.svg" class="w-20 h-10" alt="">
-                </div>
-                <div class="block md:hidden">
-                    <input type="search" class="px-4 py-2 text-[12px] border rounded-full outline-none h-9"
-                        placeholder="Search" />
-                </div>
-                <div class="hidden md:block">
-                    <button class="shopping-cart-menu">
-                        <i class="text-3xl font-black las la-shopping-bag"></i>
-                    </button>
-                </div>
-            </div>
-        </nav>
+      </nav>
     </header>
     <main>
-        <section>
-            <div>
-                <img src="https://igetvapesaustralia.com/imgs/igetlegend/iget-legend_pumywc_c_scale,w_2093.webp" alt="">
+      <section>
+        <div>
+          <img
+            src="https://igetvapesaustralia.com/imgs/igetlegend/iget-legend_pumywc_c_scale,w_2093.webp"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- slider category start -->
+      <section class="mx-4 my-10">
+        <div class="flex items-center justify-center">
+          <h2
+            class="relative pb-2 my-8 text-3xl font-bold text-center border-b-4 w-fit"
+          >
+            IGET Vape Australia
+          </h2>
+        </div>
+        <div class="w-full h-full swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]"
+            >
+              <a href="#">
+                <div
+                  class="absolute -top-6 -left-14 h-20 w-36 bg-red-600 text-white -rotate-[45deg]"
+                >
+                  <span
+                    class="absolute transform bottom-2 left-2/4 -translate-x-2/4"
+                    >New!</span
+                  >
+                </div>
+                <div class="p-2 text-center bg-gray-200 rounded">
+                  <h2 class="text-base md:text-xl">IGET Legend</h2>
+                  <p class="text-sm">4000+ Puffs</p>
+                </div>
+                <div class="md:h-[280px] md:w-[280px]">
+                  <img
+                    class="w-full h-full rounded"
+                    src="https://igetvapesaustralia.com/imgs/igetlegend/iget-bar-product-box.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="text-center">
+                  <button class="px-3 py-2 text-sm text-white bg-black rounded">
+                    Shop Now
+                  </button>
+                </div>
+              </a>
             </div>
-        </section>
-        <!-- slider category start -->
-        <section class="mx-4 my-10">
-            <div class="flex items-center justify-center">
-                <h2 class="relative pb-2 my-8 text-3xl font-bold text-center border-b-4 w-fit ">IGET Vape Australia</h2>
+            <div
+              class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]"
+            >
+              <div
+                class="absolute -top-6 -left-14 h-20 w-36 bg-red-600 text-white -rotate-[45deg]"
+              >
+                <span
+                  class="absolute transform bottom-2 left-2/4 -translate-x-2/4"
+                  >In Stock</span
+                >
+              </div>
+              <div class="p-2 text-center bg-gray-200 rounded">
+                <h2 class="text-base md:text-xl">IGET King</h2>
+                <p class="text-sm">2600+ Puffs</p>
+              </div>
+              <div class="md:h-[280px] md:w-[280px]">
+                <img
+                  class="w-full h-full rounded"
+                  src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp"
+                  alt=""
+                />
+              </div>
+              <div class="text-center">
+                <button class="px-3 py-2 text-sm text-white bg-black rounded">
+                  Shop Now
+                </button>
+              </div>
             </div>
-            <div class="w-full h-full swiper mySwiper">
-                <div class="swiper-wrapper">
-
-                    <div
-                        class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
-                        <a href="#">
-                            <div class="absolute -top-6 -left-14 h-20 w-36 bg-red-600 text-white -rotate-[45deg]">
-                                <span class="absolute transform bottom-2 left-2/4 -translate-x-2/4">New!</span>
-                            </div>
-                            <div class="p-2 text-center bg-gray-200 rounded">
-                                <h2 class="text-base md:text-xl">IGET Legend</h2>
-                                <p class="text-sm">4000+ Puffs</p>
-                            </div>
-                            <div class="md:h-[280px] md:w-[280px]">
-                                <img class="w-full h-full rounded"
-                                    src="https://igetvapesaustralia.com/imgs/igetlegend/iget-bar-product-box.webp"
-                                    alt="" />
-                            </div>
-                            <div class="text-center">
-                                <button class="px-3 py-2 text-sm text-white bg-black rounded">Shop Now</button>
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
-                        <div class="absolute -top-6 -left-14 h-20 w-36 bg-red-600 text-white -rotate-[45deg]">
-                            <span class="absolute transform bottom-2 left-2/4 -translate-x-2/4">In Stock</span>
-                        </div>
-                        <div class="p-2 text-center bg-gray-200 rounded">
-                            <h2 class="text-base md:text-xl">IGET King</h2>
-                            <p class="text-sm">2600+ Puffs</p>
-                        </div>
-                        <div class="md:h-[280px] md:w-[280px]">
-                            <img class="w-full h-full rounded"
-                                src="https://igetvapesaustralia.com/imgs/igetking/iget-king-display.webp" alt="" />
-                        </div>
-                        <div class="text-center">
-                            <button class="px-3 py-2 text-sm text-white bg-black rounded">Shop Now</button>
-                        </div>
-                    </div>
-                    <div
-                        class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
-                        <div class="absolute -top-6 -left-14 h-20 w-36 bg-red-600 text-white -rotate-[45deg]">
-                            <span class="absolute transform bottom-2 left-2/4 -translate-x-2/4">In Stock</span>
-                        </div>
-                        <div class="p-2 text-center bg-gray-200 rounded">
-                            <h2 class="text-base md:text-xl">IGET Mega</h2>
-                            <p class="text-sm">3000+ Puffs</p>
-                        </div>
-                        <div class="md:h-[280px] md:w-[280px]">
-                            <img class="w-full h-full rounded"
-                                src="https://igetvapesaustralia.com/imgs/igetmega/iget-mega-display.webp" alt="" />
-                        </div>
-                        <div class="text-center">
-                            <button class="px-3 py-2 text-sm text-white bg-black rounded">Shop Now</button>
-                        </div>
-                    </div>
-                    <div
-                        class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
-
-                        <div class="p-2 text-center bg-gray-200 rounded">
-                            <h2 class="text-base md:text-xl">IGET Shion</h2>
-                            <p class="text-sm">600+ Puffs</p>
-                        </div>
-                        <div class="md:h-[280px] md:w-[280px]">
-                            <img class="w-full h-full rounded"
-                                src="https://igetvapesaustralia.com/imgs/igetshion/iget-shion-display.webp" alt="" />
-                        </div>
-                        <div class="text-center">
-                            <button class="px-3 py-2 text-sm text-white bg-black rounded">Shop Now</button>
-                        </div>
-                    </div>
-                    <div
-                        class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
-
-                        <div class="p-2 text-center bg-gray-200 rounded">
-                            <h2 class="text-base md:text-xl">IGET Plus</h2>
-                            <p class="text-sm">1200+ Puffs</p>
-                        </div>
-                        <div class="md:h-[280px] md:w-[280px]">
-                            <img class="w-full h-full rounded"
-                                src="https://igetvapesaustralia.com/imgs/igetplus/iget-plus-display.webp" alt="" />
-                        </div>
-                        <div class="text-center">
-                            <button class="px-3 py-2 text-sm text-white bg-black rounded">Shop Now</button>
-                        </div>
-                    </div>
-                    <div
-                        class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
-
-                        <div class="p-2 text-center bg-gray-200 rounded">
-                            <h2 class="text-base md:text-xl">IGET XXL</h2>
-                            <p class="text-sm">1800+ Puffs</p>
-                        </div>
-                        <div class="md:h-[280px] md:w-[280px]">
-                            <img class="w-full h-full rounded"
-                                src="https://igetvapesaustralia.com/imgs/igetxxl/iget-bar-product.jpg" alt="" />
-                        </div>
-                        <div class="text-center">
-                            <button class="px-3 py-2 text-sm text-white bg-black rounded">Shop Now</button>
-                        </div>
-                    </div>
-                    <div
-                        class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
-
-                        <div class="p-2 text-center bg-gray-200 rounded">
-                            <h2 class="text-base md:text-xl">IGET Max</h2>
-                            <p class="text-sm">2200+ Puffs</p>
-                        </div>
-                        <div class="md:h-[280px] md:w-[280px]">
-                            <img class="w-full h-full rounded"
-                                src="https://igetvapesaustralia.com/imgs/igetmax/iget-max-display.webp" alt="" />
-                        </div>
-                        <div class="text-center">
-                            <button class="px-3 py-2 text-sm text-white bg-black rounded">Shop Now</button>
-                        </div>
-                    </div>
-                    <div
-                        class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]">
-
-                        <div class="p-2 text-center bg-gray-200 rounded">
-                            <h2 class="text-base md:text-xl">IGET Bar</h2>
-                            <p class="text-sm">3500+ Puffs</p>
-                        </div>
-                        <div class="md:h-[280px] md:w-[280px]">
-                            <img class="w-full h-full rounded"
-                                src="https://igetvapesaustralia.com/imgs/igetbar/iget-bar-collection.webp" alt="" />
-                        </div>
-                        <div class="text-center">
-                            <button class="px-3 py-2 text-sm text-white bg-black rounded">Shop Now</button>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class="swiper-button-next "></div>
-                <div class="swiper-button-prev "></div>
+            <div
+              class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]"
+            >
+              <div
+                class="absolute -top-6 -left-14 h-20 w-36 bg-red-600 text-white -rotate-[45deg]"
+              >
+                <span
+                  class="absolute transform bottom-2 left-2/4 -translate-x-2/4"
+                  >In Stock</span
+                >
+              </div>
+              <div class="p-2 text-center bg-gray-200 rounded">
+                <h2 class="text-base md:text-xl">IGET Mega</h2>
+                <p class="text-sm">3000+ Puffs</p>
+              </div>
+              <div class="md:h-[280px] md:w-[280px]">
+                <img
+                  class="w-full h-full rounded"
+                  src="https://igetvapesaustralia.com/imgs/igetmega/iget-mega-display.webp"
+                  alt=""
+                />
+              </div>
+              <div class="text-center">
+                <button class="px-3 py-2 text-sm text-white bg-black rounded">
+                  Shop Now
+                </button>
+              </div>
             </div>
-        </section>
-        <!-- slider category end -->
-        <section class="my-14">
-            <div class="flex flex-row">
-                <div class="basis-1/4">
-                    <img src="https://igetvapesaustralia.com/imgs/iget-banner-left_cnh57e_c_scale,w_1064.webp" alt="">
-                </div>
-                <div class="flex items-center justify-center basis-2/4">
-                    <div class="md:w-[40%] text-center">
-                        <h2 class="mb-3 font-semibold md:text-3xl">IGET Vape Australia</h2>
-                        <p class="hidden md:block md:font-light md:text-md md:mb-3">IGET is the latest disposable vape
-                            sensation, leading in inovation with some of the longest lasting disposable vape devices.
-                        </p>
-                        <a class=" bg-black rounded px-2 py-1 text-[12px]  text-white md:text-base" href="#">Shop
-                            All</a>
-                    </div>
-                </div>
-                <div class="basis-1/4">
-                    <img src="https://igetvapesaustralia.com/imgs/iget-banner-right_j5q7m7_c_scale,w_1064.webp" alt="">
-                </div>
+            <div
+              class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]"
+            >
+              <div class="p-2 text-center bg-gray-200 rounded">
+                <h2 class="text-base md:text-xl">IGET Shion</h2>
+                <p class="text-sm">600+ Puffs</p>
+              </div>
+              <div class="md:h-[280px] md:w-[280px]">
+                <img
+                  class="w-full h-full rounded"
+                  src="https://igetvapesaustralia.com/imgs/igetshion/iget-shion-display.webp"
+                  alt=""
+                />
+              </div>
+              <div class="text-center">
+                <button class="px-3 py-2 text-sm text-white bg-black rounded">
+                  Shop Now
+                </button>
+              </div>
             </div>
-
-        </section>
-
-        <section>
-            <div>
-                <div class="relative flex justify-center space-x-2 md:space-x-8 md:text-3xl">
-                    <button class="tabiconbottom active" onclick="tabCategory(event, 'Shion')">Shion</button>
-                    <button class="tabiconbottom " onclick="tabCategory(event, 'Plus')">Plus</button>
-                    <button class="tabiconbottom " onclick="tabCategory(event, 'XXL')">XXL</button>
-                    <button class="tabiconbottom " onclick="tabCategory(event, 'Max')">Max</button>
-                    <button class="tabiconbottom " onclick="tabCategory(event, 'King')">King</button>
-                    <button class="tabiconbottom " onclick="tabCategory(event, 'Mega')">Mega</button>
-                    <button class="tabiconbottom " onclick="tabCategory(event, 'Bar')">Bar</button>
-                    <button class="tabiconbottom " onclick="tabCategory(event, 'Legend')">Legend</button>
-                </div>
-                <hr class="mt-4">
-                <div class="md:w-[40%] mx-auto">
-
-                    <div id="Shion" class="p-4 tabcontent" style="display: block;">
-                        <div class="flex flex-col md:flex-row md:h-[450px]">
-                            <div
-                                class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3 ">
-                                <h2 class="pb-2 text-xl font-semibold md:text-3xl">IGET Shion</h2>
-                                <p class="text-sm md:text-[16px] font-normal text-center md:text-left">Light & compact.
-                                    IGET Shion delivers up to 600 satisfyingly smooth puffs. No refills or recharges
-                                    required.</p>
-                            </div>
-                            <div class="ml-4 basis-2/3 ">
-                                <img class="w-full h-full"
-                                    src="https://igetvapesaustralia.com/imgs/igetshion/iget-shion-info_cvteka_c_scale,w_2261.webp"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Plus" class="p-4 tabcontent">
-                        <div class="flex flex-col md:flex-row md:h-[450px]">
-                            <div
-                                class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3">
-                                <h2 class="pb-2 text-xl font-semibold md:text-3xl">IGET Plus</h2>
-                                <p class="text-sm md:text-[16px] font-normal text-center md:text-left">Classic & simple
-                                    design. IGET Plus delivers up to 1200 satisfyingly smooth puffs. No refills or
-                                    recharges required.</p>
-                            </div>
-                            <div class="ml-4 basis-2/3 ">
-                                <img class="w-full h-full"
-                                    src="https://igetvapesaustralia.com/imgs/igetplus/iget-plus-info_jfuchs_c_scale,w_2034.webp"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="XXL" class="p-4 tabcontent">
-                        <div class="flex flex-col md:flex-row md:h-[450px]">
-                            <div
-                                class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3">
-                                <h2 class="pb-2 text-xl font-semibold md:text-3xl">IGET XXL</h2>
-                                <p class="text-sm md:text-[16px] font-normal text-center md:text-left">Classic & simple
-                                    design. IGET XXL delivers up to 1800 satisfyingly smooth puffs. No refills or
-                                    recharges required.</p>
-                            </div>
-                            <div class="ml-4 basis-2/3 ">
-                                <img class="w-full h-full"
-                                    src="https://igetvapesaustralia.com/imgs/igetxxl/iget-xxl-info_l4ivqd_c_scale,w_1959.webp"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Max" class="p-4 tabcontent">
-                        <div class="flex flex-col md:flex-row md:h-[450px]">
-                            <div
-                                class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3">
-                                <h2 class="pb-2 text-xl font-semibold md:text-3xl">IGET Max</h2>
-                                <p class="text-sm md:text-[16px] font-normal text-center md:text-left">Ergonomically
-                                    designed to have a better feel in the hand and on the go. IGET Max delivers up to
-                                    2200 puffs. No refills or recharges required.</p>
-                            </div>
-                            <div class="ml-4 basis-2/3 ">
-                                <img class="w-full h-full"
-                                    src="https://igetvapesaustralia.com/imgs/igetmax/iget-max-info_rsn0cl_c_scale,w_2011.webp"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="King" class="p-4 tabcontent">
-                        <div class="flex flex-col md:flex-row md:h-[450px]">
-                            <div
-                                class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3">
-                                <h2 class="pb-2 text-xl font-semibold md:text-3xl">IGET King</h2>
-                                <p class="text-sm md:text-[16px] font-normal text-center md:text-left">Uniquely designed
-                                    so you can keep track of your vapes juice. IGET King delivers up to 2600 puffs. No
-                                    refills or recharges required.</p>
-                            </div>
-                            <div class="ml-4 basis-2/3 ">
-                                <img class="w-full h-full"
-                                    src="https://igetvapesaustralia.com/imgs/igetking/iget-king-info_ytlcri_c_scale,w_2155.webp"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Mega" class="p-4 tabcontent">
-                        <div class="flex flex-col md:flex-row md:h-[450px]">
-                            <div
-                                class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3">
-                                <h2 class="pb-2 text-xl font-semibold md:text-3xl">IGET Mega</h2>
-                                <p class="text-sm md:text-[16px] font-normal text-center md:text-left">Made for
-                                    function, to bring with you wherever you go. IGET Mega delivers up to 3000 puffs. No
-                                    refills or recharges required.</p>
-                            </div>
-                            <div class="ml-4 basis-2/3 ">
-                                <img class="w-full h-full"
-                                    src="https://igetvapesaustralia.com/imgs/igetmega/iget-mega-info_fbblnn_c_scale,w_2238.webp"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Bar" class="p-4 tabcontent">
-                        <div class="flex flex-col md:flex-row md:h-[450px]">
-                            <div
-                                class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3">
-                                <h2 class="pb-2 text-xl font-semibold md:text-3xl">IGET Bar</h2>
-                                <p class="text-sm md:text-[16px] font-normal text-center md:text-left">Made for
-                                    function, to bring with you wherever you go. IGET Bar delivers up to 3500 puffs. No
-                                    refills or recharges required.</p>
-                            </div>
-                            <div class="ml-4 basis-2/3 ">
-                                <img class="w-full h-full"
-                                    src="https://igetvapesaustralia.com/imgs/igetbar/iget-bar-info_rcwb2w_c_scale,w_2123.webp"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Legend" class="p-4 tabcontent">
-                        <div class="flex flex-col md:flex-row md:h-[450px]">
-                            <div
-                                class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3">
-                                <h2 class="pb-2 text-xl font-semibold md:text-3xl">IGET Legend</h2>
-                                <p class="text-sm md:text-[16px] font-normal text-center md:text-left">The largest
-                                    capacity disposable vape now available. IGET Legend delivers up to 4000 puffs. No
-                                    refills or recharges required.</p>
-                            </div>
-                            <div class="ml-4 basis-2/3 ">
-                                <img class="w-full h-full"
-                                    src="https://igetvapesaustralia.com/imgs/igetlegend/iget-legend-info_qihzu2_c_scale,w_2225.webp"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div
+              class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]"
+            >
+              <div class="p-2 text-center bg-gray-200 rounded">
+                <h2 class="text-base md:text-xl">IGET Plus</h2>
+                <p class="text-sm">1200+ Puffs</p>
+              </div>
+              <div class="md:h-[280px] md:w-[280px]">
+                <img
+                  class="w-full h-full rounded"
+                  src="https://igetvapesaustralia.com/imgs/igetplus/iget-plus-display.webp"
+                  alt=""
+                />
+              </div>
+              <div class="text-center">
+                <button class="px-3 py-2 text-sm text-white bg-black rounded">
+                  Shop Now
+                </button>
+              </div>
             </div>
-        </section>
-        <!-- Product card start -->
-        <section>
-            <div class="py-14">
-                <h2 class="text-xl md:text-[40px] font-medium text-center">IGET Vape Flavours</h2>
+            <div
+              class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]"
+            >
+              <div class="p-2 text-center bg-gray-200 rounded">
+                <h2 class="text-base md:text-xl">IGET XXL</h2>
+                <p class="text-sm">1800+ Puffs</p>
+              </div>
+              <div class="md:h-[280px] md:w-[280px]">
+                <img
+                  class="w-full h-full rounded"
+                  src="https://igetvapesaustralia.com/imgs/igetxxl/iget-bar-product.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text-center">
+                <button class="px-3 py-2 text-sm text-white bg-black rounded">
+                  Shop Now
+                </button>
+              </div>
             </div>
-            <div class="px-2 md:px-8">
-                <div class="grid grid-cols-12 gap-8">
-                    <div
-                        class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 ">
-                            <div class="basis-[30%]">
-                                <img class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
-                                    src="https://igetvapesaustralia.com/imgs/igetshion/igetshionflavour.webp" alt="">
-                            </div>
-                            <div class="basis-[70%] space-y-4">
-                                <div>
-                                    <h2 class="text-xl font-semibold">IGET Shion</h2>
-                                    <p class="text-sm ">IGET Shion Apple, Banana Ice, Blackberry Ice, Blueberry Ice,
-                                        Blue Razz, Bubble-gum,
-                                        Cantaloupe, Cinnamon, Classic Tobacco, Cola Ice, Cool Mint, Cranberry Ice,
-                                        Flavor
-                                        Burst, Grapefruit, Grape, Guava Ice, Lush Ice, Lychee Ice, Mango, Mixed Berries,
-                                        Mystery Fruit, Passion Fruit, Peach Ice, Pineapple Ice, Pink Lemonade, Raging
-                                        Bull,
-                                        Strawberry, Strawberry Watermelon and Very Berry.
-                                    </p>
-                                </div>
-                                <div class="mt-4 ">
-                                    <a href=""
-                                        class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded">shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 ">
-                            <div class="basis-[30%]">
-                                <img class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
-                                    src="https://igetvapesaustralia.com/imgs/igetplus/igetplusflavour_kzhyxp_c_scale,w_600.webp"
-                                    alt="">
-                            </div>
-                            <div class="basis-[70%] space-y-4">
-                                <div>
-                                    <h2 class="text-xl font-semibold">IGET Plus</h2>
-                                    <p class="text-sm ">
-                                        Apple, Banana Ice, Blueberry Ice, Blue Razz, Cantaloupe, Classic Tobacco, Cola
-                                        Ice, Cool Mint, Grape, Lush Ice, Lychee Ice, Mango, Orange Ice, Passion Fruit,
-                                        Peach Ice, Pineapple Ice, Pink Lemonade, Raging Bull, Strawberry and Watermelon.
-                                    </p>
-                                </div>
-                                <div class="mt-4 ">
-                                    <a href=""
-                                        class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded">shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 ">
-                            <div class="basis-[30%]">
-                                <img class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
-                                    src="https://igetvapesaustralia.com/imgs/igetxxl/igetxxlflavour.webp" alt="">
-                            </div>
-                            <div class="basis-[70%] space-y-4">
-                                <div>
-                                    <h2 class="text-xl font-semibold">IGET XXL</h2>
-                                    <p class="text-sm ">
-                                        Blackberry Ice, Blue Razz, Blueberry Ice, BRG Ice, Bubble Gum, Cherry Ice,
-                                        Cotton Candy, Cucumber Ice, Energy Drink, Grape, Guava Ice, Kiwi Ice, Lush Ice,
-                                        Mango, Mint Ice, Mixed Berry, Mojito Lime, Passion Fruit Mango, Peach Ice,
-                                        Pineapple Juice Ice and Pink Lemonade.
-                                    </p>
-                                </div>
-                                <div class="mt-4 ">
-                                    <a href=""
-                                        class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded">shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 ">
-                            <div class="basis-[30%]">
-                                <img class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
-                                    src="https://igetvapesaustralia.com/imgs/igetmax/igetmaxflavour_sko5k7_c_scale,w_600.webp"
-                                    alt="">
-                            </div>
-                            <div class="basis-[70%] space-y-4">
-                                <div>
-                                    <h2 class="text-xl font-semibold">IGET Max</h2>
-                                    <p class="text-[12px] md:text-sm">
-                                        Blackberry Ice, Blackberry Raspberry Ice, Blueberry Ice, Blueberry Raspberry
-                                        Ice, Grape Berry Ice, Grape Ice, Lush Ice, Mango Guava Ice, Mint King, Passion
-                                        Fruit, Pineapple Juice Ice, Pineapple Mango Ice, Raspberry Watermelon Ice,
-                                        Strawberry Mango Ice and Strawberry Watermelon Ice.
-                                    </p>
-                                </div>
-                                <div class="mt-4 ">
-                                    <a href=""
-                                        class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded">shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 ">
-                            <div class="basis-[30%]">
-                                <img class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
-                                    src="https://igetvapesaustralia.com/imgs/igetking/igetkingflavour_ygfhux_c_scale,w_600.webp"
-                                    alt="">
-                            </div>
-                            <div class="basis-[70%] space-y-4">
-                                <div>
-                                    <h2 class="text-xl font-semibold">IGET King</h2>
-                                    <p class="text-[12px] md:text-sm">
-                                        Blackberry Ice, Blackberry Raspberry Ice, Blueberry Raspberry, Cola Ice, Cool
-                                        Peach, Double Apple, Iced Blueberry, Iced Grape, Lush Ice, Mango Bomb, Mint Ice,
-                                        Passion Fruit Grape Ice, Passion Fruit Mango Ice, Pineapple Juice Ice, PPC Ice,
-                                        Smooth Tobacco, Strawberry Kiwi and Very Berry.
-                                    </p>
-                                </div>
-                                <div class="mt-4 ">
-                                    <a href=""
-                                        class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded">shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1">
-                        <div class="flex border rounded md:h-[250px] p-4 ">
-                            <div class="basis-[30%]">
-                                <img class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
-                                    src="https://igetvapesaustralia.com/imgs/igetmega/igetflavour_szknma_c_scale,w_663.webp"
-                                    alt="">
-                            </div>
-                            <div class="basis-[70%] space-y-4">
-                                <div>
-                                    <h2 class="text-xl font-semibold">IGET Mega</h2>
-                                    <p class="text-[12px] md:text-sm">
-                                        Blackberry Ice, Blackberry Raspberry Ice, Blueberry Ice, Cherry Cola, Energy
-                                        Drink, Grape Ice, Kiwi Pomegranate, Lush Ice, Mint Ice, Mixed Fruit, Passion
-                                        Fruit Mango, Peach Apple, Pineapple Juice Ice, Strawberry Banana Ice, Strawberry
-                                        Ice, Strawberry Kiwi Ice, Strawberry Mango, Strawberry Watermelon and Very
-                                        Berry.
-                                    </p>
-                                </div>
-                                <div class="mt-4 ">
-                                    <a href=""
-                                        class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded">shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:translate-x-1">
-                        <div class="flex border rounded md:h-[250px]  p-4">
-                            <div class="basis-[30%]">
-                                <img class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
-                                    src="https://igetvapesaustralia.com/imgs/igetbar/igetflavour_ukzrwc_c_scale,w_663.webp"
-                                    alt="">
-                            </div>
-                            <div class="basis-[70%] space-y-4">
-                                <div>
-                                    <h2 class="text-xl font-semibold">IGET Bar</h2>
-                                    <p class="text-[12px] md:text-sm">
-                                        Blackberry Ice, Blueberry Ice, Blueberry Raspberry, Cherry Pomegranate, Cola
-                                        Ice, Double Apple, Grape Ice, Ice Cream, Lush Ice, Mango Ice, Peach Ice,
-                                        Strawberry Kiwi Ice and Strawberry Watermelon.
-                                    </p>
-                                </div>
-                                <div class="mt-4 ">
-                                    <a href=""
-                                        class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded">shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1 ">
-                        <div class="flex border rounded md:h-[250px] p-4 ">
-                            <div class="basis-[30%]">
-                                <img class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
-                                    src="https://igetvapesaustralia.com/imgs/igetlegend/igetlegendflavour_mx4kfy_c_scale,w_600.webp"
-                                    alt="">
-                            </div>
-                            <div class="basis-[70%] space-y-4">
-                                <div>
-                                    <h2 class="text-xl font-semibold">IGET Legend</h2>
-                                    <p class="text-[12px] md:text-sm">
-                                        Blackberry Ice, Blueberry Ice, Blueberry Raspberry, Cherry Pomegranate, Cola
-                                        Ice, Double Apple, Grape Ice, Ice Cream, Lush Ice, Mango Ice, Peach Ice,
-                                        Strawberry Kiwi Ice and Strawberry Watermelon.
-                                    </p>
-                                </div>
-                                <div class="mt-4 ">
-                                    <a href=""
-                                        class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded">shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div
+              class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]"
+            >
+              <div class="p-2 text-center bg-gray-200 rounded">
+                <h2 class="text-base md:text-xl">IGET Max</h2>
+                <p class="text-sm">2200+ Puffs</p>
+              </div>
+              <div class="md:h-[280px] md:w-[280px]">
+                <img
+                  class="w-full h-full rounded"
+                  src="https://igetvapesaustralia.com/imgs/igetmax/iget-max-display.webp"
+                  alt=""
+                />
+              </div>
+              <div class="text-center">
+                <button class="px-3 py-2 text-sm text-white bg-black rounded">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide relative overflow-hidden rounded border bg-white p-2 shadow md:space-y-2 w-[256px]"
+            >
+              <div class="p-2 text-center bg-gray-200 rounded">
+                <h2 class="text-base md:text-xl">IGET Bar</h2>
+                <p class="text-sm">3500+ Puffs</p>
+              </div>
+              <div class="md:h-[280px] md:w-[280px]">
+                <img
+                  class="w-full h-full rounded"
+                  src="https://igetvapesaustralia.com/imgs/igetbar/iget-bar-collection.webp"
+                  alt=""
+                />
+              </div>
+              <div class="text-center">
+                <button class="px-3 py-2 text-sm text-white bg-black rounded">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+      <!-- slider category end -->
+      <section class="my-14">
+        <div class="flex flex-row">
+          <div class="basis-1/4">
+            <img
+              src="https://igetvapesaustralia.com/imgs/iget-banner-left_cnh57e_c_scale,w_1064.webp"
+              alt=""
+            />
+          </div>
+          <div class="flex items-center justify-center basis-2/4">
+            <div class="md:w-[40%] text-center">
+              <h2 class="mb-3 font-semibold md:text-3xl">
+                IGET Vape Australia
+              </h2>
+              <p class="hidden md:block md:font-light md:text-md md:mb-3">
+                IGET is the latest disposable vape sensation, leading in
+                inovation with some of the longest lasting disposable vape
+                devices.
+              </p>
+              <a
+                class="bg-black rounded px-2 py-1 text-[12px] text-white md:text-base"
+                href="#"
+                >Shop All</a
+              >
+            </div>
+          </div>
+          <div class="basis-1/4">
+            <img
+              src="https://igetvapesaustralia.com/imgs/iget-banner-right_j5q7m7_c_scale,w_1064.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
 
+      <section>
+        <div>
+          <div
+            class="relative flex justify-center space-x-2 md:space-x-8 md:text-3xl"
+          >
+            <button
+              class="tabiconbottom active"
+              onclick="tabCategory(event, 'Shion')"
+            >
+              Shion
+            </button>
+            <button class="tabiconbottom" onclick="tabCategory(event, 'Plus')">
+              Plus
+            </button>
+            <button class="tabiconbottom" onclick="tabCategory(event, 'XXL')">
+              XXL
+            </button>
+            <button class="tabiconbottom" onclick="tabCategory(event, 'Max')">
+              Max
+            </button>
+            <button class="tabiconbottom" onclick="tabCategory(event, 'King')">
+              King
+            </button>
+            <button class="tabiconbottom" onclick="tabCategory(event, 'Mega')">
+              Mega
+            </button>
+            <button class="tabiconbottom" onclick="tabCategory(event, 'Bar')">
+              Bar
+            </button>
+            <button
+              class="tabiconbottom"
+              onclick="tabCategory(event, 'Legend')"
+            >
+              Legend
+            </button>
+          </div>
+          <hr class="mt-4" />
+          <div class="md:w-[40%] mx-auto">
+            <div id="Shion" class="p-4 tabcontent" style="display: block">
+              <div class="flex flex-col md:flex-row md:h-[450px]">
+                <div
+                  class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3"
+                >
+                  <h2 class="pb-2 text-xl font-semibold md:text-3xl">
+                    IGET Shion
+                  </h2>
+                  <p
+                    class="text-sm md:text-[16px] font-normal text-center md:text-left"
+                  >
+                    Light & compact. IGET Shion delivers up to 600 satisfyingly
+                    smooth puffs. No refills or recharges required.
+                  </p>
                 </div>
-            </div>
-        </section>
-        <!-- Product card end -->
-        <section class="mt-14">
-            <div class="flex flex-row bg-black min-h-[200px]">
-                <div class="hidden basis-2/5 md:block">
-                    <img src="https://igetvapesaustralia.com/imgs/igetmega/bannerleft_e4mbjs_c_scale,w_1556.webp"
-                        alt="">
+                <div class="ml-4 basis-2/3">
+                  <img
+                    class="w-full h-full"
+                    src="https://igetvapesaustralia.com/imgs/igetshion/iget-shion-info_cvteka_c_scale,w_2261.webp"
+                    alt=""
+                  />
                 </div>
-                <div class="flex items-center justify-center basis-2/5 md:basis-1/5">
-                    <div class="text-center md:w-full">
-                        <h2 class="mb-3 text-white md:font-semibold md:text-3xl">Buy IGET Vapes in Bulk.</h2>
-                        <p class="hidden text-white md:block md:font-light md:text-md md:mb-3">Buy and save on your
-                            favourite iget flavours, each box coming with 10 devices at a bulk/wholesale price.
-                        </p>
-                        <a class=" bg-white rounded px-2 py-1 text-[12px]  text-black md:text-base" href="#">Shop
-                            All</a>
-                    </div>
-                </div>
-                <div class="basis-3/5 md:basis-2/5">
-                    <img src="https://igetvapesaustralia.com/imgs/igetmega/bannerright_zuwvwk_c_scale,w_1556.webp"
-                        class="w-full h-full" alt="">
-                </div>
+              </div>
             </div>
 
-        </section>
+            <div id="Plus" class="p-4 tabcontent">
+              <div class="flex flex-col md:flex-row md:h-[450px]">
+                <div
+                  class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3"
+                >
+                  <h2 class="pb-2 text-xl font-semibold md:text-3xl">
+                    IGET Plus
+                  </h2>
+                  <p
+                    class="text-sm md:text-[16px] font-normal text-center md:text-left"
+                  >
+                    Classic & simple design. IGET Plus delivers up to 1200
+                    satisfyingly smooth puffs. No refills or recharges required.
+                  </p>
+                </div>
+                <div class="ml-4 basis-2/3">
+                  <img
+                    class="w-full h-full"
+                    src="https://igetvapesaustralia.com/imgs/igetplus/iget-plus-info_jfuchs_c_scale,w_2034.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="XXL" class="p-4 tabcontent">
+              <div class="flex flex-col md:flex-row md:h-[450px]">
+                <div
+                  class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3"
+                >
+                  <h2 class="pb-2 text-xl font-semibold md:text-3xl">
+                    IGET XXL
+                  </h2>
+                  <p
+                    class="text-sm md:text-[16px] font-normal text-center md:text-left"
+                  >
+                    Classic & simple design. IGET XXL delivers up to 1800
+                    satisfyingly smooth puffs. No refills or recharges required.
+                  </p>
+                </div>
+                <div class="ml-4 basis-2/3">
+                  <img
+                    class="w-full h-full"
+                    src="https://igetvapesaustralia.com/imgs/igetxxl/iget-xxl-info_l4ivqd_c_scale,w_1959.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="Max" class="p-4 tabcontent">
+              <div class="flex flex-col md:flex-row md:h-[450px]">
+                <div
+                  class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3"
+                >
+                  <h2 class="pb-2 text-xl font-semibold md:text-3xl">
+                    IGET Max
+                  </h2>
+                  <p
+                    class="text-sm md:text-[16px] font-normal text-center md:text-left"
+                  >
+                    Ergonomically designed to have a better feel in the hand and
+                    on the go. IGET Max delivers up to 2200 puffs. No refills or
+                    recharges required.
+                  </p>
+                </div>
+                <div class="ml-4 basis-2/3">
+                  <img
+                    class="w-full h-full"
+                    src="https://igetvapesaustralia.com/imgs/igetmax/iget-max-info_rsn0cl_c_scale,w_2011.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="King" class="p-4 tabcontent">
+              <div class="flex flex-col md:flex-row md:h-[450px]">
+                <div
+                  class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3"
+                >
+                  <h2 class="pb-2 text-xl font-semibold md:text-3xl">
+                    IGET King
+                  </h2>
+                  <p
+                    class="text-sm md:text-[16px] font-normal text-center md:text-left"
+                  >
+                    Uniquely designed so you can keep track of your vapes juice.
+                    IGET King delivers up to 2600 puffs. No refills or recharges
+                    required.
+                  </p>
+                </div>
+                <div class="ml-4 basis-2/3">
+                  <img
+                    class="w-full h-full"
+                    src="https://igetvapesaustralia.com/imgs/igetking/iget-king-info_ytlcri_c_scale,w_2155.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="Mega" class="p-4 tabcontent">
+              <div class="flex flex-col md:flex-row md:h-[450px]">
+                <div
+                  class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3"
+                >
+                  <h2 class="pb-2 text-xl font-semibold md:text-3xl">
+                    IGET Mega
+                  </h2>
+                  <p
+                    class="text-sm md:text-[16px] font-normal text-center md:text-left"
+                  >
+                    Made for function, to bring with you wherever you go. IGET
+                    Mega delivers up to 3000 puffs. No refills or recharges
+                    required.
+                  </p>
+                </div>
+                <div class="ml-4 basis-2/3">
+                  <img
+                    class="w-full h-full"
+                    src="https://igetvapesaustralia.com/imgs/igetmega/iget-mega-info_fbblnn_c_scale,w_2238.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="Bar" class="p-4 tabcontent">
+              <div class="flex flex-col md:flex-row md:h-[450px]">
+                <div
+                  class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3"
+                >
+                  <h2 class="pb-2 text-xl font-semibold md:text-3xl">
+                    IGET Bar
+                  </h2>
+                  <p
+                    class="text-sm md:text-[16px] font-normal text-center md:text-left"
+                  >
+                    Made for function, to bring with you wherever you go. IGET
+                    Bar delivers up to 3500 puffs. No refills or recharges
+                    required.
+                  </p>
+                </div>
+                <div class="ml-4 basis-2/3">
+                  <img
+                    class="w-full h-full"
+                    src="https://igetvapesaustralia.com/imgs/igetbar/iget-bar-info_rcwb2w_c_scale,w_2123.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="Legend" class="p-4 tabcontent">
+              <div class="flex flex-col md:flex-row md:h-[450px]">
+                <div
+                  class="flex flex-col items-center justify-center md:basis-1/3 md:items-start md:space-y-3"
+                >
+                  <h2 class="pb-2 text-xl font-semibold md:text-3xl">
+                    IGET Legend
+                  </h2>
+                  <p
+                    class="text-sm md:text-[16px] font-normal text-center md:text-left"
+                  >
+                    The largest capacity disposable vape now available. IGET
+                    Legend delivers up to 4000 puffs. No refills or recharges
+                    required.
+                  </p>
+                </div>
+                <div class="ml-4 basis-2/3">
+                  <img
+                    class="w-full h-full"
+                    src="https://igetvapesaustralia.com/imgs/igetlegend/iget-legend-info_qihzu2_c_scale,w_2225.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Product card start -->
+      <section>
+        <div class="py-14">
+          <h2 class="text-xl md:text-[40px] font-medium text-center">
+            IGET Vape Flavours
+          </h2>
+        </div>
+        <div class="px-2 md:px-8">
+          <div class="grid grid-cols-12 gap-8">
+            <div
+              class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1"
+            >
+              <div class="flex border rounded md:h-[250px] p-4">
+                <div class="basis-[30%]">
+                  <img
+                    class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
+                    src="https://igetvapesaustralia.com/imgs/igetshion/igetshionflavour.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="basis-[70%] space-y-4">
+                  <div>
+                    <h2 class="text-xl font-semibold">IGET Shion</h2>
+                    <p class="text-sm">
+                      IGET Shion Apple, Banana Ice, Blackberry Ice, Blueberry
+                      Ice, Blue Razz, Bubble-gum, Cantaloupe, Cinnamon, Classic
+                      Tobacco, Cola Ice, Cool Mint, Cranberry Ice, Flavor Burst,
+                      Grapefruit, Grape, Guava Ice, Lush Ice, Lychee Ice, Mango,
+                      Mixed Berries, Mystery Fruit, Passion Fruit, Peach Ice,
+                      Pineapple Ice, Pink Lemonade, Raging Bull, Strawberry,
+                      Strawberry Watermelon and Very Berry.
+                    </p>
+                  </div>
+                  <div class="mt-4">
+                    <a
+                      href=""
+                      class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded"
+                      >shop now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1"
+            >
+              <div class="flex border rounded md:h-[250px] p-4">
+                <div class="basis-[30%]">
+                  <img
+                    class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
+                    src="https://igetvapesaustralia.com/imgs/igetplus/igetplusflavour_kzhyxp_c_scale,w_600.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="basis-[70%] space-y-4">
+                  <div>
+                    <h2 class="text-xl font-semibold">IGET Plus</h2>
+                    <p class="text-sm">
+                      Apple, Banana Ice, Blueberry Ice, Blue Razz, Cantaloupe,
+                      Classic Tobacco, Cola Ice, Cool Mint, Grape, Lush Ice,
+                      Lychee Ice, Mango, Orange Ice, Passion Fruit, Peach Ice,
+                      Pineapple Ice, Pink Lemonade, Raging Bull, Strawberry and
+                      Watermelon.
+                    </p>
+                  </div>
+                  <div class="mt-4">
+                    <a
+                      href=""
+                      class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded"
+                      >shop now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1"
+            >
+              <div class="flex border rounded md:h-[250px] p-4">
+                <div class="basis-[30%]">
+                  <img
+                    class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
+                    src="https://igetvapesaustralia.com/imgs/igetxxl/igetxxlflavour.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="basis-[70%] space-y-4">
+                  <div>
+                    <h2 class="text-xl font-semibold">IGET XXL</h2>
+                    <p class="text-sm">
+                      Blackberry Ice, Blue Razz, Blueberry Ice, BRG Ice, Bubble
+                      Gum, Cherry Ice, Cotton Candy, Cucumber Ice, Energy Drink,
+                      Grape, Guava Ice, Kiwi Ice, Lush Ice, Mango, Mint Ice,
+                      Mixed Berry, Mojito Lime, Passion Fruit Mango, Peach Ice,
+                      Pineapple Juice Ice and Pink Lemonade.
+                    </p>
+                  </div>
+                  <div class="mt-4">
+                    <a
+                      href=""
+                      class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded"
+                      >shop now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1"
+            >
+              <div class="flex border rounded md:h-[250px] p-4">
+                <div class="basis-[30%]">
+                  <img
+                    class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
+                    src="https://igetvapesaustralia.com/imgs/igetmax/igetmaxflavour_sko5k7_c_scale,w_600.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="basis-[70%] space-y-4">
+                  <div>
+                    <h2 class="text-xl font-semibold">IGET Max</h2>
+                    <p class="text-[12px] md:text-sm">
+                      Blackberry Ice, Blackberry Raspberry Ice, Blueberry Ice,
+                      Blueberry Raspberry Ice, Grape Berry Ice, Grape Ice, Lush
+                      Ice, Mango Guava Ice, Mint King, Passion Fruit, Pineapple
+                      Juice Ice, Pineapple Mango Ice, Raspberry Watermelon Ice,
+                      Strawberry Mango Ice and Strawberry Watermelon Ice.
+                    </p>
+                  </div>
+                  <div class="mt-4">
+                    <a
+                      href=""
+                      class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded"
+                      >shop now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1"
+            >
+              <div class="flex border rounded md:h-[250px] p-4">
+                <div class="basis-[30%]">
+                  <img
+                    class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
+                    src="https://igetvapesaustralia.com/imgs/igetking/igetkingflavour_ygfhux_c_scale,w_600.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="basis-[70%] space-y-4">
+                  <div>
+                    <h2 class="text-xl font-semibold">IGET King</h2>
+                    <p class="text-[12px] md:text-sm">
+                      Blackberry Ice, Blackberry Raspberry Ice, Blueberry
+                      Raspberry, Cola Ice, Cool Peach, Double Apple, Iced
+                      Blueberry, Iced Grape, Lush Ice, Mango Bomb, Mint Ice,
+                      Passion Fruit Grape Ice, Passion Fruit Mango Ice,
+                      Pineapple Juice Ice, PPC Ice, Smooth Tobacco, Strawberry
+                      Kiwi and Very Berry.
+                    </p>
+                  </div>
+                  <div class="mt-4">
+                    <a
+                      href=""
+                      class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded"
+                      >shop now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1"
+            >
+              <div class="flex border rounded md:h-[250px] p-4">
+                <div class="basis-[30%]">
+                  <img
+                    class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
+                    src="https://igetvapesaustralia.com/imgs/igetmega/igetflavour_szknma_c_scale,w_663.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="basis-[70%] space-y-4">
+                  <div>
+                    <h2 class="text-xl font-semibold">IGET Mega</h2>
+                    <p class="text-[12px] md:text-sm">
+                      Blackberry Ice, Blackberry Raspberry Ice, Blueberry Ice,
+                      Cherry Cola, Energy Drink, Grape Ice, Kiwi Pomegranate,
+                      Lush Ice, Mint Ice, Mixed Fruit, Passion Fruit Mango,
+                      Peach Apple, Pineapple Juice Ice, Strawberry Banana Ice,
+                      Strawberry Ice, Strawberry Kiwi Ice, Strawberry Mango,
+                      Strawberry Watermelon and Very Berry.
+                    </p>
+                  </div>
+                  <div class="mt-4">
+                    <a
+                      href=""
+                      class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded"
+                      >shop now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:translate-x-1"
+            >
+              <div class="flex border rounded md:h-[250px] p-4">
+                <div class="basis-[30%]">
+                  <img
+                    class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
+                    src="https://igetvapesaustralia.com/imgs/igetbar/igetflavour_ukzrwc_c_scale,w_663.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="basis-[70%] space-y-4">
+                  <div>
+                    <h2 class="text-xl font-semibold">IGET Bar</h2>
+                    <p class="text-[12px] md:text-sm">
+                      Blackberry Ice, Blueberry Ice, Blueberry Raspberry, Cherry
+                      Pomegranate, Cola Ice, Double Apple, Grape Ice, Ice Cream,
+                      Lush Ice, Mango Ice, Peach Ice, Strawberry Kiwi Ice and
+                      Strawberry Watermelon.
+                    </p>
+                  </div>
+                  <div class="mt-4">
+                    <a
+                      href=""
+                      class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded"
+                      >shop now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 transition ease-in-out delay-150 md:col-span-4 hover:bg-gray-100 hover:rounded hover:-translate-x-1"
+            >
+              <div class="flex border rounded md:h-[250px] p-4">
+                <div class="basis-[30%]">
+                  <img
+                    class="w-full h-full transition ease-in-out delay-150 scale-x-125 hover:scale-x-150"
+                    src="https://igetvapesaustralia.com/imgs/igetlegend/igetlegendflavour_mx4kfy_c_scale,w_600.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="basis-[70%] space-y-4">
+                  <div>
+                    <h2 class="text-xl font-semibold">IGET Legend</h2>
+                    <p class="text-[12px] md:text-sm">
+                      Blackberry Ice, Blueberry Ice, Blueberry Raspberry, Cherry
+                      Pomegranate, Cola Ice, Double Apple, Grape Ice, Ice Cream,
+                      Lush Ice, Mango Ice, Peach Ice, Strawberry Kiwi Ice and
+                      Strawberry Watermelon.
+                    </p>
+                  </div>
+                  <div class="mt-4">
+                    <a
+                      href=""
+                      class="inline-block px-2 py-1 text-sm text-white capitalize bg-black border rounded"
+                      >shop now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Product card end -->
+      <section class="mt-14">
+        <div class="flex flex-row bg-black min-h-[200px]">
+          <div class="hidden basis-2/5 md:block">
+            <img
+              src="https://igetvapesaustralia.com/imgs/igetmega/bannerleft_e4mbjs_c_scale,w_1556.webp"
+              alt=""
+            />
+          </div>
+          <div class="flex items-center justify-center basis-2/5 md:basis-1/5">
+            <div class="text-center md:w-full">
+              <h2 class="mb-3 text-white md:font-semibold md:text-3xl">
+                Buy IGET Vapes in Bulk.
+              </h2>
+              <p
+                class="hidden text-white md:block md:font-light md:text-md md:mb-3"
+              >
+                Buy and save on your favourite iget flavours, each box coming
+                with 10 devices at a bulk/wholesale price.
+              </p>
+              <a
+                class="bg-white rounded px-2 py-1 text-[12px] text-black md:text-base"
+                href="#"
+                >Shop All</a
+              >
+            </div>
+          </div>
+          <div class="basis-3/5 md:basis-2/5">
+            <img
+              src="https://igetvapesaustralia.com/imgs/igetmega/bannerright_zuwvwk_c_scale,w_1556.webp"
+              class="w-full h-full"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="bg-blue-500">
-            <div class="container grid grid-cols-12 gap-6 py-8">
-                <div class="col-span-12 md:col-span-6">
-                    <h2 class="my-4 text-lg font-bold text-white">QUICK LINKS</h2>
-                    <div class="grid grid-cols-2 space-y-1 text-base text-white">
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
-                            Janna</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
-                            Shion</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
-                            Plus</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
-                            Max</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
-                            XXL</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
-                            King</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
-                            Mega</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">IGET
-                            Bar</a>
-                        <a href="#"
-                            class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Bulk/wholesale</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">All
-                            Products</a>
-                    </div>
-                </div>
-                <div class="col-span-12 md:col-span-3">
-                    <h2 class="my-4 text-lg font-bold text-white">INFORMATION</h2>
-                    <div class="grid grid-cols-1 space-y-1 text-base text-white">
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Refund
-                            Policy</a>
-                        <a href="#"
-                            class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Shipping
-                            Policy</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Privacy
-                            Policy</a>
-                        <a href="#" class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Terms
-                            and
-                            Conditions</a>
-                        <a href="#"
-                            class="transition ease-in-out delay-100 hover:underline hover:translate-x-1">Sitemap</a>
-                    </div>
-                </div>
-                <div class="col-span-12 md:col-span-3">
-                    <h2 class="my-4 text-lg font-bold text-white"> CONTACT INFO </h2>
-                    <h5 class="mb-2 text-white underline"> Contact Us</h5>
-                    <p class="text-sm text-white"> Email: <a
-                            href="mailto:support@igetvapesaustralia.com">support@igetvapesaustralia.com</a></p>
-                    <div class="flex gap-6 mt-8">
-                        <a href="#"
-                            class="flex items-center justify-center w-10 h-10 text-2xl transition ease-in-out delay-150 bg-white border-b-2 shadow-md rounded-xl hover:-translate-y-2 border-slate-600 shadow-white"><i
-                                class="lab la-facebook-f"></i></a>
-                        <a href="#"
-                            class="flex items-center justify-center w-10 h-10 text-2xl transition ease-in-out delay-150 bg-white border-b-2 shadow-md rounded-xl hover:-translate-y-2 border-slate-600 shadow-white"><i
-                                class="lab la-instagram"></i></a>
-                        <a href="#"
-                            class="flex items-center justify-center w-10 h-10 text-2xl transition ease-in-out delay-150 bg-white border-b-2 shadow-md rounded-xl hover:-translate-y-2 border-slate-600 shadow-white"><i
-                                class="lab la-twitter"></i></a>
-                        <a href="#"
-                            class="flex items-center justify-center w-10 h-10 text-2xl transition ease-in-out delay-150 bg-white border-b-2 shadow-md rounded-xl hover:-translate-y-2 border-slate-600 shadow-white"><i
-                                class="lab la-linkedin"></i></a>
-                    </div>
-                    <!-- <div class="w-2/3">
+      <div class="bg-blue-500">
+        <div class="container grid grid-cols-12 gap-6 py-8">
+          <div class="col-span-12 md:col-span-6">
+            <h2 class="my-4 text-lg font-bold text-white">QUICK LINKS</h2>
+            <div class="grid grid-cols-2 space-y-1 text-base text-white">
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >IGET Janna</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >IGET Shion</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >IGET Plus</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >IGET Max</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >IGET XXL</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >IGET King</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >IGET Mega</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >IGET Bar</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >Bulk/wholesale</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >All Products</a
+              >
+            </div>
+          </div>
+          <div class="col-span-12 md:col-span-3">
+            <h2 class="my-4 text-lg font-bold text-white">INFORMATION</h2>
+            <div class="grid grid-cols-1 space-y-1 text-base text-white">
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >Refund Policy</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >Shipping Policy</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >Privacy Policy</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >Terms and Conditions</a
+              >
+              <a
+                href="#"
+                class="transition ease-in-out delay-100 hover:underline hover:translate-x-1"
+                >Sitemap</a
+              >
+            </div>
+          </div>
+          <div class="col-span-12 md:col-span-3">
+            <h2 class="my-4 text-lg font-bold text-white">CONTACT INFO</h2>
+            <h5 class="mb-2 text-white underline">Contact Us</h5>
+            <p class="text-sm text-white">
+              Email:
+              <a href="mailto:support@igetvapesaustralia.com"
+                >support@igetvapesaustralia.com</a
+              >
+            </p>
+            <div class="flex gap-6 mt-8">
+              <a
+                href="#"
+                class="flex items-center justify-center w-10 h-10 text-2xl transition ease-in-out delay-150 bg-white border-b-2 shadow-md rounded-xl hover:-translate-y-2 border-slate-600 shadow-white"
+                ><i class="lab la-facebook-f"></i
+              ></a>
+              <a
+                href="#"
+                class="flex items-center justify-center w-10 h-10 text-2xl transition ease-in-out delay-150 bg-white border-b-2 shadow-md rounded-xl hover:-translate-y-2 border-slate-600 shadow-white"
+                ><i class="lab la-instagram"></i
+              ></a>
+              <a
+                href="#"
+                class="flex items-center justify-center w-10 h-10 text-2xl transition ease-in-out delay-150 bg-white border-b-2 shadow-md rounded-xl hover:-translate-y-2 border-slate-600 shadow-white"
+                ><i class="lab la-twitter"></i
+              ></a>
+              <a
+                href="#"
+                class="flex items-center justify-center w-10 h-10 text-2xl transition ease-in-out delay-150 bg-white border-b-2 shadow-md rounded-xl hover:-translate-y-2 border-slate-600 shadow-white"
+                ><i class="lab la-linkedin"></i
+              ></a>
+            </div>
+            <!-- <div class="w-2/3">
                          <img src="https://igetvapesaustralia.com/imgs/igetwhite.svg" class="" alt="">
                      </div> -->
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
 
-
-        <div class="bg-blue-600">
-            <div class="container py-8 text-center">
-                <h3 class="text-white">NEWSLETTER</h3>
-                <p class="text-white">Subscribe to receive access to exclusive deals, and much more.</p>
-                <div class="mt-4">
-                    <input type="text" placeholder="Enter your email address"
-                        class="px-3 py-1 text-base border rounded outline-none">
-                    <button class="px-3 py-1 text-base capitalize bg-white rounded shadow outline-none">submit</button>
-                </div>
-            </div>
+      <div class="bg-blue-600">
+        <div class="container py-8 text-center">
+          <h3 class="text-white">NEWSLETTER</h3>
+          <p class="text-white">
+            Subscribe to receive access to exclusive deals, and much more.
+          </p>
+          <div class="mt-4">
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              class="px-3 py-1 text-base border rounded outline-none"
+            />
+            <button
+              class="px-3 py-1 text-base capitalize bg-white rounded shadow outline-none"
+            >
+              submit
+            </button>
+          </div>
         </div>
-        <div class="bg-blue-700">
-            <p class="p-6 text-base text-center text-white">© 2022 igetvapesaustralia.com All Rights Reserved </p>
-        </div>
+      </div>
+      <div class="bg-blue-700">
+        <p class="p-6 text-base text-center text-white">
+          © 2022 igetvapesaustralia.com All Rights Reserved
+        </p>
+      </div>
     </footer>
 
     <!-- Mobile menu start -->
-    <div class="fixed bottom-0 left-0 z-50 w-full bg-white border-t shadow-sm md:hidden">
-        <nav class="">
-            <div class="flex items-center justify-between w-full px-4 py-2 border-b shadow">
-                <div class=" hover:text-pink-600">
-                    <a href="" class="flex flex-col items-center justify-center">
-                        <i class="text-xl leading-none las la-home "></i>
-                        <p class="text-sm ">Home</p>
-                    </a>
-                </div>
-                <div class="flex flex-col items-center justify-center hover:text-pink-600">
-                    <button id="menuToggleNew">
-                        <i class="text-xl leading-none las la-th-large "></i>
-                        <p class="text-sm ">Category</p>
-                    </button>
-                </div>
-                <div class="flex flex-col items-center justify-center hover:text-pink-600">
-                    <button id="cartMenu2">
-                        <i class="text-xl leading-none las la-shopping-cart "></i>
-                        <p class="text-sm ">Cart</p>
-                    </button>
-                </div>
-                <div class="flex flex-col items-center justify-center hover:text-pink-600">
-                    <i class="text-xl leading-none las la-user "></i>
-                    <p class="text-sm ">Profile</p>
-                </div>
-            </div>
-        </nav>
+    <div
+      class="fixed bottom-0 left-0 z-50 w-full bg-white border-t shadow-sm md:hidden"
+    >
+      <nav class="">
+        <div
+          class="flex items-center justify-between w-full px-4 py-2 border-b shadow"
+        >
+          <div class="hover:text-pink-600">
+            <a href="" class="flex flex-col items-center justify-center">
+              <i class="text-xl leading-none las la-home"></i>
+              <p class="text-sm">Home</p>
+            </a>
+          </div>
+          <div
+            class="flex flex-col items-center justify-center hover:text-pink-600"
+          >
+            <button id="menuToggleNew">
+              <i class="text-xl leading-none las la-th-large"></i>
+              <p class="text-sm">Category</p>
+            </button>
+          </div>
+          <div
+            class="flex flex-col items-center justify-center hover:text-pink-600"
+          >
+            <button id="cartMenu2">
+              <i class="text-xl leading-none las la-shopping-cart"></i>
+              <p class="text-sm">Cart</p>
+            </button>
+          </div>
+          <div
+            class="flex flex-col items-center justify-center hover:text-pink-600"
+          >
+            <i class="text-xl leading-none las la-user"></i>
+            <p class="text-sm">Profile</p>
+          </div>
+        </div>
+      </nav>
     </div>
     <!-- Mobile menu end -->
     <!-- class="absolute top-0 z-40 h-full bg-white border-t border-r w-80 md:backdrop-blur-md md:bg-white/30" -->
 
     <!-- category menu list start -->
-    <div id="modalWrapper" class="fixed top-0 bg-[#00000091] z-40 opacity-0 pointer-events-none border-r w-full h-full transition ease-in-out delay-500 ">
-        <div class="relative h-full transition ease-in-out delay-500 bg-white modal__container w-80 ">
-            <button class="absolute w-6 h-6 bg-white border rounded-full border-slate-500 top-3 -right-3 close-button-category"><i class="las la-angle-left"></i></button>
-            <div>
-                <h2>Menu</h2>
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                </ul>
-            </div>
+    <div
+      id="modalWrapper"
+      class="fixed top-0 bg-[#00000091] z-40 opacity-0 pointer-events-none border-r w-full h-full transition ease-in-out delay-500"
+    >
+      <div
+        class="relative h-full transition ease-in-out delay-500 bg-white modal__container w-80"
+      >
+        <button
+          class="absolute w-6 h-6 bg-white border rounded-full border-slate-500 top-3 -right-3 close-button-category"
+        >
+          <i class="las la-angle-left"></i>
+        </button>
+        <div class="p-6">
+          <h2 class="border-b-2 border-black my-6 text-center text-xl">Menu</h2>
+          <ul class="space-y-6">
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >Home
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >IGET Janna
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >IGET Shion
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >IGET Plus
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >IGET XXL
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >IGET Max
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >IGET King
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >IGET Mega
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >IGET Bar
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >Bulk/wholesale
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+            <li class="hover:bg-pink-600 rounded">
+              <a
+                class="shadow px-3 py-3 rounded flex justify-between items-center"
+                href="#"
+                >Contact Us
+                <span
+                  class="w-6 h-6 rounded-full flex justify-center items-center border"
+                  ><i class="las la-angle-right"></i></span
+              ></a>
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
     <!-- category menu list end -->
 
-    <!-- shoping cart menu list start -->
-    <div id="shopingCartWrapper" class="fixed top-0 right-0 bg-[#00000091] z-40 opacity-0 pointer-events-none border-r w-full h-full transition ease-in-out delay-300">
-        <div class="absolute top-0 right-0 h-full transition ease-in-out delay-300 bg-white shop_modal__wrapper w-96">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti, vitae illum voluptate maiores
-            modi animi placeat ad maxime? Veniam vel maxime iste et corporis error mollitia quidem vitae iusto?
-            <button class="close-shop-button">close</button>
+    <!-- shopping cart menu list start -->
+    <div
+      id="shopingCartWrapper"
+      class="fixed top-0 right-0 bg-[#00000091] z-40 opacity-0 pointer-events-none border-r w-full h-full transition ease-in-out delay-300"
+    >
+      <div
+        class="absolute top-0 right-0 h-full transition ease-in-out delay-300 bg-white shop_modal__wrapper w-96"
+      >
+        <button
+          class="absolute w-6 h-6 bg-white text-pink-600 border rounded-full border-pink-600 top-3 -left-3 close-shop-button"
+        >
+          <i class="las la-times"></i>
+        </button>
+        <div class="bg-green-600 mx-4 my-6 h-full">
+            <h2 class="text-2xl text-center">Cart <span>99</span></h2>
         </div>
+      </div>
     </div>
     <!-- shoping cart menu list end -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./asset/js/app.js"></script>
-</body>
-
+  </body>
 </html>
