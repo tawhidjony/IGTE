@@ -20,19 +20,29 @@
 // });
 
 // Modal start
-const triggerButton     = document.querySelector(".open-category-menu");
+const triggerButton     = document.querySelectorAll(".open-category-menu");
 const modalWrapper      = document.querySelector("#modalWrapper");
 const closeButtonModal  = document.querySelector(".close-button-category");
+triggerButton.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    openModal();
+  })
+})
 
-const shopTriggerButton     = document.querySelector(".shopping-cart-menu");
+
+const shopTriggerButton     = document.querySelectorAll(".shopping-cart-menu");
 const shopModalWrapper      = document.querySelector("#shopingCartWrapper");
 const shopCloseButtonModal  = document.querySelector(".close-shop-button");
-
-triggerButton.addEventListener("click", () => { openModal(); });
+shopTriggerButton.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    openModalShop();
+  })
+})
+// triggerButton.addEventListener("click", () => { openModal(); });
 closeButtonModal.addEventListener("click", () => { closeModal() });
 modalWrapper.addEventListener("click", (e) => {  if(e.target !== modalWrapper) return; closeModal() });
 
-shopTriggerButton.addEventListener("click", () => { openModalShop(); });
+// shopTriggerButton.addEventListener("click", () => { openModalShop(); });
 shopCloseButtonModal.addEventListener("click", () => { closeModalShop() });
 shopModalWrapper.addEventListener("click", (e) => {  if(e.target !== shopModalWrapper) return; closeModalShop() });
 
